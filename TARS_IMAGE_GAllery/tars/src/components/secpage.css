@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 70px;
+  width: 900px;
+  overflow-x: scroll;
+  scrollbar-width: none; /* remove scrollbar */
+  -ms-overflow-style: none; /* remove scrollbar */
+}
+
+.container::-webkit-scrollbar {
+  display: none; /* remove scrollbar */
+}
+
+.box {
+  height: 70px;
+  width: 100px;
+  background-color: #ccc;
+  margin-right: 10px;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 20px;
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}

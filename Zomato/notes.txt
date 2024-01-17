@@ -1,0 +1,85 @@
+
+
+//// Social media login integration
+
+(1) facebook login
+(2) google login
+
+
+Everyone need to create developer accounts:
+    - facebook
+    - google
+
+    ids ( developer accounts ) : we need to integrate social media logins
+
+
+Following Steps:
+
+    (1) npmjs.com -> get the required libraries
+        -> for facebook
+            npm i react-facebook-login --save
+        -> for google
+            npm i react-google-login --save
+
+    (2) Signup for developer accounts on facebook and google
+        -> for facebook
+            -> go to https://developers.facebook.com/apps
+            -> create an app
+            -> get the App Id (XXXXXXXXXXXX)
+        -> for google
+            -> go to https://console.cloud.google.com/home/dashboard
+            -> create a client first (first ask for cinfigure the OAuth consent)
+            -> get the client ID and the client secret:
+                Client ID: XXXXXXXXXXXXXX.apps.googleusercontent.com
+                Client Secret: XXXXXXXXXXXX
+
+    (3) Go to the FE screen and integrate the facebook and google logins
+
+
+
+///// Deployments
+
+    -> making the product available over the internet
+    -> Layers:
+        -> FE (reactJS, HTML, CSS, JS, BS)
+        -> BE (NodeJS, ExpressJS)
+        -> DB (MongoDB) -> MongoDB Atlas -> cloud based database
+
+    -> cloud based deployments
+        -> heroku (https://id.heroku.com/login)
+            (1) create a free account
+            (2) Types of deployments they support:
+                -> GUI Based deployments - we can use the heroku website to do the deployments
+                -> CLI Based deployments - we do the depoyments using the command prompt / terminal
+
+        -> Deployments will be done in 2 phases:
+
+            (1) BE Deployment:
+                - we will do it using the CLI
+                - steps of the CLI deployments:
+                    Step1: Install the heroku package from npm, globally
+                        > npm i -g heroku
+                    Step2: change some configurations in app.js and create a new ENV file (Procfile)
+                    Step3: push the code to heorku and in the CLI and trigger the build
+                        -> heroku login in CLI
+                            > heorku login
+                                (follow the login process)
+                        -> git add .
+                            (if not a git repository, then first do a git init)
+                        -> git commit -m "commit message"
+                        -> heroku create zomato-b22-be
+                            (this will create a new application in heorku)
+                        -> git push heroku master
+                            (this will deploy the application)
+                - BE is built and deployed
+
+            (2) FE Deployment:
+                - we will do using the GUI
+                - in the FE, update the BE URL with the deployed address
+                - steps for the GUI Deployment:
+                    Step1: need to host the FE code in Github
+                    Step2: create a new app from the heroku dashboard
+                    Step3: need to connect the heroku app with the github account where we have pushed the FE code
+                    Step4: choose the branch and trigger the build
+                    Step5: access your application and verify
+        

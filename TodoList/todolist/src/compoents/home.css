@@ -1,0 +1,51 @@
+.ant-pro-card{
+ background-color:#810000;
+}   
+.ant-pro-card-body{
+ background-color:#810000;
+}
+.ant-table-wrapper{
+ background-color:#810000;
+}
+.ant-table-cell{
+  background-color:#EEEBDD;
+  color:#117171;
+  border-width: 0.4px;
+  border-color: #EEEBDD;
+}
+th .ant-table-cell{
+ background-color:#810000;
+  color:#EEEBDD;
+}
+.my-table-row .ant-table-cell {
+  background-color: #810000;
+  color: #eeebdd;
+}
+.ant-btn{
+  background-color:#EEEBDD;
+  color:#117171;
+}
+a{
+  background-color:#EEEBDD;
+  color:#117171;
+  border-width: 0.4px;
+  border-color:#EEEBDD;border-radius: 20%;
+}
+.ant-input{
+ background-color:#EEEBDD;
+  color:#117171;
+  border-width: 0.4px;
+  border-color:#EEEBDD;
+}
+.ant-btn svg{
+ color:#117171;
+}
+svg{
+ color:#EEEBDD;
+}
+.ant-pagination-total-text{
+ color:#EEEBDD;
+}
+.da{
+ color:#117171;
+}
