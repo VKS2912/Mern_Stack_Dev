@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "61cea3177e7cc439ce98bbdb"
+  },
+  "show": true,
+  "native": "/6499/example/native",
+  "reward": "ca-app-pub-6613740021165773/8520772637",
+  "interstitial": "/6499/example/interstitial",
+  "banner": "/6499/example/banner",
+  "createdAt": {
+    "$date": "2021-12-31T06:28:39.939Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-11T23:19:26.308Z"
+  }
+}]

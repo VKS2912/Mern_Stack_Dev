@@ -1,0 +1,9 @@
+export const GET_BANNER = "GET_BANNER";
+export const CREATE_NEW_BANNER = "CREATE_NEW_BANNER";
+export const EDIT_BANNER = "EDIT_BANNER";
+export const DELETE_BANNER = "DELETE_BANNER";
+
+export const VIP_SWITCH = "VIP_SWITCH";
+
+export const OPEN_BANNER_DIALOG = "OPEN_BANNER_DIALOG";
+export const CLOSE_BANNER_DIALOG = "CLOSE_BANNER_DIALOG";

@@ -1,0 +1,101 @@
+[{
+  "_id": {
+    "$oid": "61c97e30b3082d7fe7e1f2f8"
+  },
+  "name": "Level 2",
+  "image": "storage/1649336920975lv2.png",
+  "coin": 10000,
+  "createdAt": {
+    "$date": "2021-12-27T08:49:52.248Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-11T09:03:18.120Z"
+  },
+  "accessibleFunction": {
+    "cashOut": true,
+    "freeCall": true,
+    "liveStreaming": true,
+    "uploadPost": true,
+    "uploadVideo": true
+  }
+},{
+  "_id": {
+    "$oid": "61c97e3fb3082d7fe7e1f2fa"
+  },
+  "name": "Level 3",
+  "image": "storage/1649336914033lv3.png",
+  "coin": 20000,
+  "createdAt": {
+    "$date": "2021-12-27T08:50:07.013Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-07T13:08:33.991Z"
+  },
+  "accessibleFunction": {
+    "cashOut": true,
+    "freeCall": false,
+    "liveStreaming": true,
+    "uploadPost": true,
+    "uploadVideo": true
+  }
+},{
+  "_id": {
+    "$oid": "61c97e4db3082d7fe7e1f2fc"
+  },
+  "name": "Level 4",
+  "image": "storage/1649336909121lv4.png",
+  "coin": 50000,
+  "createdAt": {
+    "$date": "2021-12-27T08:50:21.504Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-07T13:08:29.100Z"
+  },
+  "accessibleFunction": {
+    "cashOut": true,
+    "freeCall": true,
+    "liveStreaming": true,
+    "uploadPost": false,
+    "uploadVideo": true
+  }
+},{
+  "_id": {
+    "$oid": "61c97e23b3082d7fe7e1f2f6"
+  },
+  "name": "Level 1",
+  "image": "storage/1649336926522lv1.png",
+  "coin": 5000,
+  "createdAt": {
+    "$date": "2021-12-27T08:49:39.904Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-11T09:02:45.266Z"
+  },
+  "accessibleFunction": {
+    "cashOut": true,
+    "freeCall": false,
+    "liveStreaming": true,
+    "uploadPost": true,
+    "uploadVideo": true
+  }
+},{
+  "_id": {
+    "$oid": "61c97e5eb3082d7fe7e1f2fe"
+  },
+  "name": "Level 5",
+  "image": "storage/1649336903592lv5.png",
+  "coin": 100000,
+  "createdAt": {
+    "$date": "2021-12-27T08:50:38.819Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-11T09:02:56.295Z"
+  },
+  "accessibleFunction": {
+    "cashOut": true,
+    "freeCall": true,
+    "liveStreaming": true,
+    "uploadPost": true,
+    "uploadVideo": true
+  }
+}]

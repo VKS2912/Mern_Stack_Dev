@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "61caef95720a639baec620c7"
+  },
+  "referralBonus": 250,
+  "agoraKey": "YOUR_AGORA_ID",
+  "agoraCertificate": "YOUR_AGORA_CERTIFICATE",
+  "maxSecondForVideo": 30,
+  "privacyPolicyLink": "YOUR_APP_PRIVACY_POLICY_LINK",
+  "privacyPolicyText": "You are 14 years old then you can use _ App. We ask everyone on _ to Be kind and respectful, so every person can have a greet experience. We evaluate Your Privacy and Personal information. If you want to use _  App then you have to follow our Terms & Condition and Privacy Policy.",
+  "chatCharge": 0,
+  "callCharge": 7,
+  "googlePlayEmail": "GOOGLE_PLAY_EMAIL",
+  "googlePlayKey": "GOOGLE PLAY KEY",
+  "googlePlaySwitch": true,
+  "stripeSwitch": true,
+  "stripePublishableKey": "YOUR_STRIPE_PUBLIC_KEY",
+  "stripeSecretKey": "YOUR_STRIPE_SECRET_KEY",
+  "currency": "$",
+  "rCoinForDiamond": 25,
+  "isAppActive": true,
+  "freeDiamondForAd": 5,
+  "maxAdPerDay": 5,
+  "rCoinForCashOut": 150,
+  "loginBonus": 50,
+  "paymentGateway": [
+    "UPI",
+    "Paytm",
+    "Banking"
+  ],
+  "minRcoinForCashOut": 3000
+}]
