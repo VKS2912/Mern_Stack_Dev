@@ -1,0 +1,599 @@
+/* Write your custom CSS here */
+.MuiBackdrop-root {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+::-webkit-scrollbar {
+  height: 1px;
+  /* height of horizontal scrollbar ← You're missing this */
+  width: 8px;
+  /* width of vertical scrollbar */
+  border: 1px solid #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+  background: #181821;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262635;
+}
+
+.page-sidebar .accordion-menu::-webkit-scrollbar {
+  height: 0px;
+  /* height of horizontal scrollbar ← You're missing this */
+  width: 4px;
+  /* width of vertical scrollbar */
+  border: 1px solid #d5d5d5;
+}
+
+.collapse::-webkit-scrollbar {
+  height: 0px;
+  /* height of horizontal scrollbar ← You're missing this */
+  width: 2px;
+  /* width of vertical scrollbar */
+  border: 1px solid #d5d5d5;
+}
+
+.followDiv::-webkit-scrollbar {
+  height: 0px;
+  /* height of horizontal scrollbar ← You're missing this */
+  width: 3px;
+  /* width of vertical scrollbar */
+  border: 1px solid #d5d5d5;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 38%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.6;
+  cursor: grab;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.page-sidebar .accordion-menu>li>span {
+  display: block;
+  color: #9a9cab;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  line-height: 45px;
+  padding: 0 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.page-sidebar .accordion-menu>li>span>svg {
+  width: 21px;
+  height: 21px;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: text-top;
+  color: #9a9cab;
+  margin-right: 15px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidenav__icon {
+  margin-right: 15px;
+}
+
+.card-overflow {
+  overflow-x: scroll;
+}
+
+.card-overflow::-webkit-scrollbar {
+  height: 1px;
+  /* height of horizontal scrollbar ← You're missing this */
+  width: 3px;
+  /* width of vertical scrollbar */
+  border: 1px solid #d5d5d5;
+}
+
+.card-overflow::-webkit-scrollbar-track {
+  background: #181821;
+}
+
+.card-overflow::-webkit-scrollbar-thumb {
+  background: #1f1f2b;
+}
+
+.back__style {
+  width: "100%";
+  height: "100%";
+  background-size: "cover";
+  background-attachment: "fixed";
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/login.png");
+}
+
+.icon_margin {
+  margin-left: 5px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 58px;
+  height: 32px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #86c1ed;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked+.slider {
+  background-color: #ada6f2;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #ada6f2;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.searchBar:focus {
+  background-color: #1f1f2b;
+  box-shadow: none;
+}
+
+.MuiTypography-colorInherit {
+  color: #91a3b0 !important;
+}
+
+.MuiSelect-select {
+  color: #91a3b0 !important;
+}
+
+.MuiSelect-icon {
+  color: #91a3b0 !important;
+}
+
+.MuiIconButton-root.Mui-disabled {
+  color: #9a9cab !important;
+}
+
+.MuiIconButton-root {
+  color: #86c1ed !important;
+}
+
+.float__right {
+  float: right;
+}
+
+.MuiPaper-root {
+  background-color: #161622 !important;
+}
+
+.text-gray {
+  color: #91a3b0;
+}
+
+.text-red {
+  color: #de1738;
+}
+
+.collapse-margin {
+  margin-left: -7px;
+  /* overflow-x: scroll; */
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: aliceblue;
+  color: #fff;
+}
+
+.post-padding {
+  padding: 6px 15px !important;
+  margin-bottom: 0;
+}
+
+.commentImg {
+  margin-top: 13px;
+}
+
+.shadow {
+  box-shadow: rgb(105 103 103 / 50%) 0px 5px 15px 0px;
+  border: 2px solid #e8538f;
+}
+
+.comment-delete {
+  margin-left: 10px;
+}
+
+.form-check-input:focus,
+.form-control:focus {
+  box-shadow: none;
+}
+
+.rows>* {
+  max-height: 500px;
+}
+
+.pie>* {
+  max-height: 350px;
+}
+
+.swal-title {
+  color: rgba(255, 255, 255, 0.65) !important;
+  font-weight: 500 !important;
+}
+
+.swal-text {
+  color: rgba(255, 255, 255, 0.64) !important;
+}
+
+.swal-modal {
+  background-color: #161622 !important;
+}
+
+.swal-icon--success__hide-corners,
+.swal-icon--success:after,
+.swal-icon--success:before {
+  background-color: transparent;
+}
+
+.MuiSelect-select:not([multiple]) option,
+.MuiSelect-select:not([multiple]) optgroup {
+  background-color: #161622 !important;
+}
+
+.chip,
+.highlightOption,
+.multiSelectContainer li:hover {
+  background: #e8538f !important;
+}
+
+.page-sidebar .accordion-menu {
+  overflow-x: scroll !important;
+}
+
+.danger {
+  background-color: #f5365c;
+}
+
+.success {
+  background-color: #146356;
+}
+
+.stats-card .stats-icon.change-pink {
+  color: #fff;
+  background-color: #fc9494;
+  box-shadow: 0 3px 18px -8px #fc9494;
+}
+
+.border-right-radius {
+  border-top-right-radius: 50rem;
+  border-bottom-right-radius: 50rem;
+}
+
+.pagination {
+  /* float: right; */
+}
+
+.page-link {
+  border-radius: 50% !important;
+  padding: 5px 13px;
+}
+
+.page-item {
+  padding: 5px;
+}
+
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff !important;
+  background-color: #e8538f;
+  border-color: #e8538f;
+}
+
+.page-link:focus {
+  box-shadow: none;
+}
+
+.dropdown {
+  max-height: 30px;
+  margin-top: 15px;
+  padding: 3px 5px;
+  font-size: 12px;
+  max-width: 80px;
+}
+
+#datePicker {
+  position: absolute;
+  z-index: 1;
+}
+
+.table {
+  position: relative;
+  text-align: center !important;
+}
+
+.rdrDefinedRangesWrapper {
+  background: #181821 !important;
+  color: #9a9cab;
+  border-right: solid 1px #9a9cab !important;
+}
+
+.rdrStaticRange {
+  background: #181821 !important;
+  color: #9a9cab;
+  border-bottom: 1px solid #9a9cab !important;
+}
+
+.rdrCalendarWrapper,
+.rdrInputRangeInput {
+  background: #181821 !important;
+}
+
+.rdrMonthAndYearPickers select,
+.rdrDayPassive .rdrDayNumber span {
+  color: #9a9cab !important;
+}
+
+.rdrDayNumber span {
+  color: #fff !important;
+}
+
+.rdrDateRangePickerWrapper {
+  border: solid 1px #9a9cab !important;
+}
+
+.rdrStaticRange:hover .rdrStaticRangeLabel,
+.rdrStaticRange:focus .rdrStaticRangeLabel {
+  background: #1f1f2b !important;
+}
+
+.rdrNextPrevButton,
+.rdrDateDisplayItem,
+.rdrDateDisplayItem input {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.rdrDateDisplayItemActive {
+  border-color: #fff !important;
+}
+
+.rdrDateDisplayWrapper {
+  background-color: #1f1f2b !important;
+}
+
+.rdrDefinedRangesWrapper .rdrStaticRangeSelected {
+  color: #ada6f2 !important;
+}
+
+.rdrDayEndOfMonth .rdrInRange,
+.rdrDayEndOfMonth .rdrStartEdge,
+.rdrDayEndOfWeek .rdrInRange,
+.rdrDayEndOfWeek .rdrStartEdge,
+.rdrStartEdge,
+.rdrInRange,
+.rdrEndEdge,
+.rdrDayToday .rdrDayNumber span:after {
+  background: #ada6f2 !important;
+}
+
+.rdrInputRangeInput {
+  border: solid 1px #ada6f2 !important;
+  color: #fff !important;
+}
+
+.rdrInputRangeInput:focus,
+.rdrInputRangeInput:hover {
+  border-color: #ada6f2;
+  outline: 0;
+  color: #fff !important;
+}
+
+.rdrDayEndOfMonth .rdrDayInPreview,
+.rdrDayEndOfMonth .rdrDayStartPreview,
+.rdrDayEndOfWeek .rdrDayInPreview,
+.rdrDayEndOfWeek .rdrDayStartPreview {
+  border-top-right-radius: 1.333em;
+  border-bottom-right-radius: 1.333em;
+  border-right-width: 1px;
+  right: 0px;
+  border-color: #ada6f2 !important;
+}
+
+.rdrDayStartOfMonth .rdrDayInPreview,
+.rdrDayStartOfMonth .rdrDayEndPreview,
+.rdrDayStartOfWeek .rdrDayInPreview,
+.rdrDayStartOfWeek .rdrDayEndPreview {
+  border-top-left-radius: 1.333em;
+  border-bottom-left-radius: 1.333em;
+  border-left-width: 1px;
+  left: 0px;
+  border-color: #ada6f2 !important;
+}
+
+.rdrDayEndPreview,
+.rdrDayStartPreview {
+  border-color: #ada6f2 !important;
+}
+
+.rdrDayInPreview {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-color: #ada6f2 !important;
+}
+
+.rdrYearPicker option,
+.rdrMonthPicker option {
+  background: #262635 !important;
+}
+
+.rdrYearPicker select::-webkit-scrollbar {
+  height: 0px;
+  /* height of horizontal scrollbar ← You're missing this */
+  width: 4px;
+  /* width of vertical scrollbar */
+  border: 1px solid #d5d5d5;
+}
+
+.rdrYearPicker select::-webkit-scrollbar-track {
+  background: #181821;
+}
+
+.rdrYearPicker select::-webkit-scrollbar-thumb {
+  background: #262635;
+}
+
+.rdrDateDisplayItemActive {
+  border: 3px solid #959595 !important;
+}
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.styles-module_Editext__input__2-M50,
+.styles-module_Editext__button__sxYQX {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: #181821 !important;
+  color: #fff !important;
+  border-color: #181821 !important;
+}
+
+.hiddenRow {
+  padding: 0 !important;
+}
+
+.profile-header .profile-img img {
+  object-fit: cover;
+}
+
+.makeStyles-navLink-1.active {
+  font-size: 15px !important;
+}
+
+.accordion-toggle {
+  border-top-width: 3px;
+}
+
+.daterangepicker,
+.daterangepicker .calendar-table,
+.daterangepicker td.off {
+  color: #9a9cab;
+  background-color: #1f1f2b !important;
+  border: 1px solid #1f1f2b !important;
+}
+
+.daterangepicker td.active,
+.daterangepicker td.in-range,
+.daterangepicker td.available:hover,
+.daterangepicker th.available:hover {
+  background-color: #181821 !important;
+  border-color: transparent;
+  color: #9a9cab !important;
+}
+
+.applyBtn {
+  background-color: #ada6f2 !important;
+}
+
+.cancelBtn {
+  color: #9a9cab !important;
+}
+
+.calendar-table .prev span,
+.daterangepicker .calendar-table .next span {
+  color: #1f1f2b !important;
+  border: solid #9a9cab !important;
+
+  border-width: 0 2px 2px 0 !important;
+  border-radius: 0 !important;
+  display: inline-block !important;
+  padding: 3px !important;
+}
+
+.daterangepicker.opensright:before,
+.daterangepicker.opensright:after {
+  left: 50% !important;
+}
+
+.daterangepicker:after,
+.daterangepicker:before {
+  border-bottom: 6px solid #1f1f2b !important;
+}
+
+.rdrDayDisabled {
+  cursor: no-drop !important;
+  background-color: #181821 !important;
+  color: #9a9cab !important;
+}
+
+.rdrDayDisabled .rdrDayNumber {
+  text-decoration: line-through !important;
+  text-decoration-color: #9a9cab !important;
+  text-decoration-thickness: 2px !important;
+}
+.rdrDayDisabled .rdrDayNumber span {
+  color: #9a9cab !important;
+
+}
